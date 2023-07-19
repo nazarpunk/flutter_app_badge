@@ -54,13 +54,13 @@ class _MyAppState extends State<MyApp> {
             crossAxisAlignment: CrossAxisAlignment.center,
             children: <Widget>[
               new Text('Badge supported: $_appBadgeSupported\n'),
-              new RaisedButton(
+              new ElevatedButton(
                 child: new Text('Add badge'),
                 onPressed: () {
                   _addBadge();
                 },
               ),
-              new RaisedButton(
+              new ElevatedButton(
                   child: new Text('Remove badge'),
                   onPressed: () {
                     _removeBadge();
