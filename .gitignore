@@ -4,6 +4,8 @@
 **/build/
 **/Pods/
 **/pubspec.lock
+/android/.gradle
+/android/.idea
 /example/test/
 /example/android/
 /example/web/

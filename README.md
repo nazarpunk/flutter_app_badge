@@ -49,6 +49,8 @@ Please also add the following to your `<project>/macos/Runner/Info.plist`:
 
 ### Android
 
+https://developer.android.com/develop/ui/views/notifications/badges
+
 On Android, no official API exists to show a badge in the launcher. But some devices (Samsung, HTC...) support the feature.
 Thanks to the [Shortcut Badger library](https://github.com/leolin310148/ShortcutBadger/), ~ 16 launchers are supported.
 
