@@ -6,6 +6,9 @@
 .pub/
 build/
 ios/.generated/
+/example/windows/
+/example/linux/
+/example/macos/
 packages
 pubspec.lock
 .flutter-plugins-dependencies
