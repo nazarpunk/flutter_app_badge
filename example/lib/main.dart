@@ -49,7 +49,6 @@ class MyAppState extends State<MyApp> {
       title: 'flutter_app_badge',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepOrange),
         useMaterial3: true,
       ),
       home: Scaffold(
