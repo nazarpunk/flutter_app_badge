@@ -11,5 +11,5 @@
 /example/windows/
 /example/linux/
 /example/macos/
-
-
+/example/.flutter-plugins
+/example/.flutter-plugins-dependencies
