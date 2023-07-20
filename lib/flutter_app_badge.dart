@@ -4,7 +4,7 @@ import 'package:flutter/services.dart';
 
 class FlutterAppBadger {
   static const MethodChannel _channel =
-      const MethodChannel('g123k/flutter_app_badger');
+      const MethodChannel('nazarpunk/flutter_app_badge');
 
   static Future<void> updateBadgeCount(int count) {
     return _channel.invokeMethod('updateBadgeCount', {"count": count});

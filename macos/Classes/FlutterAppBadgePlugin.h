@@ -1,5 +1,5 @@
 #import <FlutterMacOS/FlutterMacOS.h>
 #import <Foundation/Foundation.h>
 
-@interface FlutterAppBadgerPlugin : NSObject <FlutterPlugin>
+@interface FlutterAppBadgePlugin : NSObject <FlutterPlugin>
 @end

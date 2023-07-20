@@ -6,6 +6,7 @@
 .pub/
 build/
 ios/.generated/
+/example/test/
 /example/windows/
 /example/linux/
 /example/macos/

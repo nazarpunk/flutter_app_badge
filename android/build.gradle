@@ -1,4 +1,4 @@
-group 'fr.g123k.flutterappbadge.flutterappbadger'
+group 'nazarpunk.flutterappbadge'
 version '1.0-SNAPSHOT'
 
 buildscript {

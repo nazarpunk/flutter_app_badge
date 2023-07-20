@@ -1,11 +1,11 @@
-#import "FlutterAppBadgerPlugin.h"
+#import "FlutterAppBadgePlugin.h"
 
-@implementation FlutterAppBadgerPlugin
+@implementation FlutterAppBadgePlugin
 + (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar> *)registrar {
   FlutterMethodChannel *channel =
-      [FlutterMethodChannel methodChannelWithName:@"g123k/flutter_app_badger"
+      [FlutterMethodChannel methodChannelWithName:@"nazarpunk/flutter_app_badge"
                                   binaryMessenger:[registrar messenger]];
-  FlutterAppBadgerPlugin *instance = [[FlutterAppBadgerPlugin alloc] init];
+  FlutterAppBadgePlugin *instance = [[FlutterAppBadgePlugin alloc] init];
   [registrar addMethodCallDelegate:instance channel:channel];
 }
 

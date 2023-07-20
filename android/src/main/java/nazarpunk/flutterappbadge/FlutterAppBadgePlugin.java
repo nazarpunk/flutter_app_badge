@@ -1,4 +1,4 @@
-package fr.g123k.flutterappbadger;
+package nazarpunk.flutterappbadge;
 
 import android.content.Context;
 
@@ -10,13 +10,13 @@ import io.flutter.plugin.common.MethodCall;
 import me.leolin.shortcutbadger.ShortcutBadger;
 
 /**
- * FlutterAppBadgerPlugin
+ * FlutterAppBadgePlugin
  */
-public class FlutterAppBadgerPlugin implements MethodCallHandler, FlutterPlugin {
+public class FlutterAppBadgePlugin implements MethodCallHandler, FlutterPlugin {
 
   private Context applicationContext;
   private MethodChannel channel;
-  private static final String CHANNEL_NAME = "g123k/flutter_app_badger";
+  private static final String CHANNEL_NAME = "nazarpunk/flutter_app_badge";
 
   /**
    * Plugin registration.
