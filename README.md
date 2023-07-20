@@ -54,7 +54,7 @@ Thanks to the [Shortcut Badger library](https://github.com/leolin310148/Shortcut
 
 First, you just have to import the package in your dart files with:
 ```dart
-import 'package:flutter_app_badger/flutter_app_badger.dart';
+import 'package:flutter_app_badge/flutter_app_badge.dart';
 ```
 
 Then you can add a badge:
@@ -64,7 +64,7 @@ FlutterAppBadger.updateBadgeCount(1);
 
 Remove a badge:
 ```dart
-FlutterAppBadger.removeBadge();
+FlutterAppBadger.updateBadgeCount(0);
 ```
 
 Or just check if the device supports this feature with:
