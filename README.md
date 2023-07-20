@@ -8,12 +8,12 @@ This plugin for [Flutter](https://flutter.io) adds the ability to change the bad
 It supports iOS, macOS, and some Android devices (the official API does not support the feature, even on Oreo).
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/nazarpunk/flutter_app_badger/master/assets/ios.png" alt="Android badge" style="margin:auto" width="600" 
+  <img src="https://raw.githubusercontent.com/nazarpunk/flutter_app_badge/master/assets/ios.png" alt="Android badge" style="margin:auto" width="600" 
 height="228">
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/nazarpunk/flutter_app_badger/master/assets/android.png" alt="Android badge" style="margin:auto" width="600" 
+  <img src="https://raw.githubusercontent.com/nazarpunk/flutter_app_badge/master/assets/android.png" alt="Android badge" style="margin:auto" width="600" 
 height="322">
 </p>
 
@@ -25,7 +25,10 @@ height="322">
 On iOS, the notification permission is required to update the badge.
 It is automatically asked when the badge is added or removed.
 
-Please also add the following to your `<project>/ios/Runner/Info.plist`:
+Enable `Remote notification` in XCode:
+<p align="center"><img src="https://raw.githubusercontent.com/nazarpunk/flutter_app_badge/master/assets/ios-remote-notifications.png" alt="IOS Remote notification"></p>
+
+Or add in `<project>/ios/Runner/Info.plist`:
 ```xml
 <key>UIBackgroundModes</key>
 <array>
@@ -59,15 +62,15 @@ import 'package:flutter_app_badge/flutter_app_badge.dart';
 
 Then you can add a badge:
 ```dart
-FlutterAppBadger.updateBadgeCount(1);
+FlutterAppBadge.updateBadgeCount(1);
 ```
 
 Remove a badge:
 ```dart
-FlutterAppBadger.updateBadgeCount(0);
+FlutterAppBadge.updateBadgeCount(0);
 ```
 
 Or just check if the device supports this feature with:
 ```dart
-FlutterAppBadger.isAppBadgeSupported();
+FlutterAppBadge.isAppBadgeSupported();
 ```
