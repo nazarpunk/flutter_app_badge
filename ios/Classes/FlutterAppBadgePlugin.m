@@ -22,16 +22,11 @@
 - (void)handleMethodCall:(FlutterMethodCall*)call result:(FlutterResult)result {
     [self enableNotifications];
     
-  if ([@"updateBadgeCount" isEqualToString:call.method]) {
+  if ([@"count" isEqualToString:call.method]) {
       NSDictionary *args = call.arguments;
       NSNumber *count = [args objectForKey:@"count"];
       [UIApplication sharedApplication].applicationIconBadgeNumber = count.integerValue;
     result(nil);
-  } else if ([@"removeBadge" isEqualToString:call.method]) {
-      [UIApplication sharedApplication].applicationIconBadgeNumber = 0;
-      result(nil);
-  } else if ([@"isAppBadgeSupported" isEqualToString:call.method]) {
-      result(@YES);
   } else {
     result(FlutterMethodNotImplemented);
   }

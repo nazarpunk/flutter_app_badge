@@ -1,0 +1,8 @@
+linter:
+  rules:
+    prefer_single_quotes: true
+    package_api_docs: true # https://dart.dev/tools/linter-rules/package_api_docs
+    dangling_library_doc_comments: true # https://dart.dev/tools/linter-rules/dangling_library_doc_comments
+    slash_for_doc_comments: true # https://dart.dev/tools/linter-rules/slash_for_doc_comments
+    unnecessary_library_directive: true # https://dart.dev/tools/linter-rules/unnecessary_library_directive
+    comment_references: true # https://dart.dev/tools/linter-rules/comment_references
