@@ -1,6 +1,6 @@
-# Flutter App Badger plugin
+# Flutter app badge plugin
 
-[![Pub](https://img.shields.io/pub/v/flutter_app_badger.svg)](https://pub.dev/packages/flutter_app_badge)
+[![Pub](https://img.shields.io/pub/v/flutter_app_badge.svg)](https://pub.dev/packages/flutter_app_badge)
 
 Fork of [flutter_app_badger](https://pub.dev/packages/flutter_app_badger).
 

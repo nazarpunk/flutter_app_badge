@@ -1,3 +1,7 @@
+## [2.0.2]
+
+Update README.
+
 ## [2.0.1]
 
 Small fixes.
