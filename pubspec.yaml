@@ -1,6 +1,6 @@
 name: flutter_app_badge
 description: Plugin to update the app badge on the launcher iOS and macOS
-version: 2.0.0+1
+version: 2.0.1
 homepage: https://github.com/nazarpunk/flutter_app_badge
 
 dependencies:
